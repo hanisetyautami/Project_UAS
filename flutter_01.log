@@ -1,0 +1,66 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+HttpException: HttpException: Connection closed before full header was received, uri = http://localhost:52922/devtools/page/3D23BAB55D2937B077B2F9878E7AAB8F
+
+```
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.24.0, on Microsoft Windows [Version 10.0.26100.7171], locale en-ID)
+    [32m•[39m Flutter version 3.24.0 on channel stable at C:\Users\ASUS\Downloads\flutter_windows_3.24.0-stable\flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision 80c2e84975 (1 year, 4 months ago), 2024-07-30 23:06:49 +0700
+    [32m•[39m Engine revision b8800d88be
+    [32m•[39m Dart version 3.5.0
+    [32m•[39m DevTools version 2.37.2
+
+[32m[✓][39m Windows Version (Installed version of Windows is version 10 or higher)
+
+[32m[✓][39m Android toolchain - develop for Android devices (Android SDK version 36.1.0)
+    [32m•[39m Android SDK at C:\Users\ASUS\AppData\Local\Android\Sdk
+    [32m•[39m Platform android-36, build-tools 36.1.0
+    [32m•[39m Java binary at: C:\Program Files\Android\Android Studio\jbr\bin\java
+    [32m•[39m Java version OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+    [32m•[39m All Android licenses accepted.
+
+[32m[✓][39m Chrome - develop for the web
+    [32m•[39m Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[31m[✗][39m Visual Studio - develop Windows apps
+    [31m✗[39m Visual Studio not installed; this is necessary to develop Windows apps.
+      Download at https://visualstudio.microsoft.com/downloads/.
+      Please install the "Desktop development with C++" workload, including all of its default components
+
+[32m[✓][39m Android Studio (version 2025.2.1)
+    [32m•[39m Android Studio at C:\Program Files\Android\Android Studio
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    [32m•[39m Java version OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+
+[32m[✓][39m VS Code (version 1.106.3)
+    [32m•[39m VS Code at C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code
+    [32m•[39m Flutter extension version 3.124.0
+
+[32m[✓][39m Connected device (3 available)
+    [32m•[39m Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26100.7171]
+    [32m•[39m Chrome (web)      • chrome  • web-javascript • Google Chrome 142.0.7444.176
+    [32m•[39m Edge (web)        • edge    • web-javascript • Microsoft Edge 142.0.3595.94
+    [33m![39m Device emulator-5554 is not authorized.
+      You might need to check your device for an authorization dialog.
+
+[32m[✓][39m Network resources
+    [32m•[39m All expected network resources are available.
+
+[33m![39m Doctor found issues in 1 category.
+```
